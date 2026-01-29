@@ -28,5 +28,17 @@ for(let i = 0; i <= friends?.length; i++){
 const numbers = [23, 54, 73, 74, 75, 84, 84, 875, 5675, 854, 544, 8554];
 
 for(let i = 0; i < numbers.length; i++){
-    console.log(numbers[i]);
+    // console.log(numbers[i]);
+}
+
+
+let i = 0;
+while(i < friends.length){
+    console.log(friends[i]);
+    i++;
+}
+
+while(i < numbers.length){
+    // console.log(numbers[i]);
+    i++;
 }
